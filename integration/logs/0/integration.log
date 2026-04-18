@@ -1,0 +1,66 @@
+[INFO] 11:22:10.791948 logging.rs:232 [integration::mirror] => Integration client ready.
+[INFO] 11:22:10.792256 logging.rs:232 [integration::mirror] =>   0 = Refresh Socket  1 = Register  2 = Recover  3 = Start
+[INFO] 11:22:10.792260 logging.rs:232 [integration::mirror] =>   4 = Apply Friend  5 = Accept Friend  6 = Reject Friend
+[INFO] 11:22:10.792264 logging.rs:232 [integration::mirror] =>   7 = Send Message  8 = Upload Media  9 = Download Media
+[INFO] 11:22:10.792267 logging.rs:232 [integration::mirror] =>   10 = View Mnemonic  11 = Create Group
+[INFO] 11:22:10.792270 logging.rs:232 [integration::mirror] =>   12 = Subscribe Window  13 = Unsubscribe Window
+[INFO] 11:22:10.792274 logging.rs:232 [integration::mirror] =>   14 = Edit Message  15 = Revoke Message  16 = Delete Message
+[INFO] 11:22:10.792277 logging.rs:232 [integration::mirror] =>   17 = Invite Group Member  18 = Remove Group Member
+[INFO] 11:22:10.792283 logging.rs:232 [integration::mirror] =>   19 = Update My Group Setting  20 = Update Group Policy
+[INFO] 11:22:10.792289 logging.rs:232 [integration::mirror] =>   21 = Initiate Call  22 = End Call  23 = Create Live Channel
+[INFO] 11:22:10.792292 logging.rs:232 [integration::mirror] =>   24 = Join Live Token  25 = Update Participant Role
+[INFO] 11:22:10.792295 logging.rs:232 [integration::mirror] =>   26 = Promote To Host  27 = Demote To Audience  28 = Subscribe Live Channel
+[INFO] 11:22:10.792299 logging.rs:232 [integration::mirror] =>   29 = Script Smoke  30 = Script Call Timeout
+[INFO] 11:22:10.792302 logging.rs:232 [integration::mirror] =>   31 = Script Call Reject  32 = Script Call Accept
+[INFO] 11:22:10.792305 logging.rs:232 [integration::mirror] =>   Config: configuration/test.yaml
+[INFO] 11:22:10.792309 logging.rs:232 [integration::mirror] =>   Mode: driver[0]
+[INFO] 11:22:10.792312 logging.rs:232 [integration::mirror] =>   Driver: 00000000000000000000000000000001
+[INFO] 11:22:10.792315 logging.rs:232 [integration::mirror] =>   Volume: 0
+[INFO] 11:22:10.792318 logging.rs:232 [integration::mirror] =>   DB: ./volumes/0/00000000000000000000000000000001-app.db
+[INFO] 11:22:10.792322 logging.rs:232 [integration::mirror] =>   Log: ./logs/0/integration.log
+[INFO] 11:22:10.792428 logging.rs:232 [integration::mirror] =>   Bootstrap: initializing runtime shell…
+[INFO] 11:22:10.792511 bootstrap.rs:63 [runtime::app::bootstrap] => [AppBootstrap] opening runtime shell: mode=explicit device_id=00000000000000000000000000000001 existing_db=false
+[WARN] 11:22:10.792905 store.rs:31 [runtime::telemetry::store] => telemetry: failed to create dir ./integration/logs/telemetry/0/00000000000000000000000000000001: Not a directory (os error 20)
+[INFO] 11:22:10.793009 telemetry.rs:205 [runtime::telemetry] => telemetry: v2 collector worker started, base_dir=./integration/logs/telemetry/0/00000000000000000000000000000001
+[INFO] 11:22:10.805236 bootstrap.rs:116 [runtime::app::bootstrap] => [AppBootstrap] ApiClient initialized: base_url=https://gw.66dev.xyz/v1
+[DEBUG] 11:22:10.927523 bootstrap.rs:223 [runtime::app::bootstrap] => [AppBootstrap] no persisted session found for device_id=00000000000000000000000000000001, runtime remains unauthenticated
+[DEBUG] 11:22:10.927854 state.rs:331 [runtime::app::state] => [AppState] no persisted session found during lazy restore: device_id=00000000000000000000000000000001
+[DEBUG] 11:22:10.927966 state.rs:331 [runtime::app::state] => [AppState] no persisted session found during lazy restore: device_id=00000000000000000000000000000001
+[INFO] 11:22:10.928042 logging.rs:232 [integration::mirror] =>   Bootstrap: device_id=00000000000000000000000000000001
+[INFO] 11:22:10.928051 logging.rs:232 [integration::mirror] =>   Bootstrap: logged_in=false
+[INFO] 11:22:10.928053 logging.rs:232 [integration::mirror] =>   Bootstrap: db=./volumes/0/00000000000000000000000000000001-app.db
+[INFO] 11:23:02.549257 logging.rs:232 [integration::mirror] => Integration client ready.
+[INFO] 11:23:02.549342 logging.rs:232 [integration::mirror] =>   0 = Refresh Socket  1 = Register  2 = Recover  3 = Start
+[INFO] 11:23:02.549345 logging.rs:232 [integration::mirror] =>   4 = Apply Friend  5 = Accept Friend  6 = Reject Friend
+[INFO] 11:23:02.549347 logging.rs:232 [integration::mirror] =>   7 = Send Message  8 = Upload Media  9 = Download Media
+[INFO] 11:23:02.549351 logging.rs:232 [integration::mirror] =>   10 = View Mnemonic  11 = Create Group
+[INFO] 11:23:02.549354 logging.rs:232 [integration::mirror] =>   12 = Subscribe Window  13 = Unsubscribe Window
+[INFO] 11:23:02.549356 logging.rs:232 [integration::mirror] =>   14 = Edit Message  15 = Revoke Message  16 = Delete Message
+[INFO] 11:23:02.549358 logging.rs:232 [integration::mirror] =>   17 = Invite Group Member  18 = Remove Group Member
+[INFO] 11:23:02.549361 logging.rs:232 [integration::mirror] =>   19 = Update My Group Setting  20 = Update Group Policy
+[INFO] 11:23:02.549364 logging.rs:232 [integration::mirror] =>   21 = Initiate Call  22 = End Call  23 = Create Live Channel
+[INFO] 11:23:02.549366 logging.rs:232 [integration::mirror] =>   24 = Join Live Token  25 = Update Participant Role
+[INFO] 11:23:02.549368 logging.rs:232 [integration::mirror] =>   26 = Promote To Host  27 = Demote To Audience  28 = Subscribe Live Channel
+[INFO] 11:23:02.549370 logging.rs:232 [integration::mirror] =>   29 = Script Smoke  30 = Script Call Timeout
+[INFO] 11:23:02.549372 logging.rs:232 [integration::mirror] =>   31 = Script Call Reject  32 = Script Call Accept
+[INFO] 11:23:02.549375 logging.rs:232 [integration::mirror] =>   Config: configuration/test.yaml
+[INFO] 11:23:02.549377 logging.rs:232 [integration::mirror] =>   Mode: driver[0]
+[INFO] 11:23:02.549379 logging.rs:232 [integration::mirror] =>   Driver: 00000000000000000000000000000001
+[INFO] 11:23:02.549382 logging.rs:232 [integration::mirror] =>   Volume: 0
+[INFO] 11:23:02.549385 logging.rs:232 [integration::mirror] =>   DB: ./volumes/0/00000000000000000000000000000001-app.db
+[INFO] 11:23:02.549387 logging.rs:232 [integration::mirror] =>   Log: ./logs/0/integration.log
+[INFO] 11:23:02.549394 logging.rs:232 [integration::mirror] =>   Bootstrap: initializing runtime shell…
+[INFO] 11:23:02.549421 bootstrap.rs:63 [runtime::app::bootstrap] => [AppBootstrap] opening runtime shell: mode=explicit device_id=00000000000000000000000000000001 existing_db=true
+[INFO] 11:23:02.549639 telemetry.rs:205 [runtime::telemetry] => telemetry: v2 collector worker started, base_dir=./logs/telemetry/0/00000000000000000000000000000001
+[INFO] 11:23:02.552860 bootstrap.rs:116 [runtime::app::bootstrap] => [AppBootstrap] ApiClient initialized: base_url=https://gw.66dev.xyz/v1
+[DEBUG] 11:23:02.668536 bootstrap.rs:223 [runtime::app::bootstrap] => [AppBootstrap] no persisted session found for device_id=00000000000000000000000000000001, runtime remains unauthenticated
+[DEBUG] 11:23:02.668617 state.rs:331 [runtime::app::state] => [AppState] no persisted session found during lazy restore: device_id=00000000000000000000000000000001
+[DEBUG] 11:23:02.668687 state.rs:331 [runtime::app::state] => [AppState] no persisted session found during lazy restore: device_id=00000000000000000000000000000001
+[INFO] 11:23:02.668761 logging.rs:232 [integration::mirror] =>   Bootstrap: device_id=00000000000000000000000000000001
+[INFO] 11:23:02.668768 logging.rs:232 [integration::mirror] =>   Bootstrap: logged_in=false
+[INFO] 11:23:02.668770 logging.rs:232 [integration::mirror] =>   Bootstrap: db=./volumes/0/00000000000000000000000000000001-app.db
+[INFO] 11:23:13.999632 logging.rs:232 [integration::mirror] => Exiting (Esc)…
+[INFO] 11:23:13.999684 logging.rs:232 [integration::mirror] => Shutdown: stopping actor system…
+[INFO] 11:23:13.999693 state.rs:884 [runtime::app::state] => [AppState] shutdown_actor begin
+[INFO] 11:23:13.999698 state.rs:886 [runtime::app::state] => [AppState] shutdown_actor skipped: no supervisor
+[INFO] 11:23:13.999702 logging.rs:232 [integration::mirror] => Shutdown: ✓ actor system stopped
