@@ -1,5 +1,9 @@
 logs/*
-volumes/*
+volumes/0/*
+volumes/1/*
+volumes/2/*
+volumes/3/*
+volumes/4/*
 .vscode/
 .idea/
 .zed/
