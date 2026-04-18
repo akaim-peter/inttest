@@ -1,12 +1,12 @@
 # ── Database ──────────────────────────────────────────────────────────────────
 database:
-  directory: "./integration/volumes/"
+  directory: "./volumes/"
   filename: "app.db"
 
 # ── Telemetry ─────────────────────────────────────────────────────────────────
 telemetry:
   enabled: true
-  directory: "./integration/logs/telemetry"
+  directory: "./logs/telemetry"
 
 # ── Server ────────────────────────────────────────────────────────────────────
 server:
@@ -21,7 +21,7 @@ log_level: "info,runtime=debug,schema=warn,hyper=warn,h2=warn,reqwest=warn"
 
 # ── Integration UI / logging ────────────────────────────────────────────────
 integration:
-  log_directory: "./integration/logs/"
+  log_directory: "./logs/"
 
 # ── Driver (integration-specific) ────────────────────────────────────────────
 driver:
