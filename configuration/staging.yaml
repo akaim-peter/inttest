@@ -1,0 +1,34 @@
+# ── Database ──────────────────────────────────────────────────────────────────
+database:
+  directory: "./integration/volumes/"
+  filename: "app.db"
+
+# ── Telemetry ─────────────────────────────────────────────────────────────────
+telemetry:
+  enabled: true
+  directory: "./integration/logs/telemetry"
+
+# ── Server ────────────────────────────────────────────────────────────────────
+server:
+  api_url: "https://gw.bbbiz.net/v1"
+  netseed_url: "https://xyz.bbbiz.net/v1"
+
+# ── Environment ──────────────────────────────────────────────────────────────
+environment: test
+
+# ── Log level ─────────────────────────────────────────────────────────────────
+log_level: "info,runtime=debug,schema=warn,hyper=warn,h2=warn,reqwest=warn"
+
+# ── Integration UI / logging ────────────────────────────────────────────────
+integration:
+  log_directory: "./integration/logs/"
+
+# ── Driver (integration-specific) ────────────────────────────────────────────
+driver:
+  id: null
+  developer_devices:
+    - "00000000000000000000000000000001"
+    - "00000000000000000000000000000002"
+    - "00000000000000000000000000000003"
+    - "00000000000000000000000000000004"
+  password: "123456"
