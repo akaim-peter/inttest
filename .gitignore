@@ -1,0 +1,6 @@
+logs/*
+volumes/*
+.vscode/
+.idea/
+.zed/
+.DS_Store
