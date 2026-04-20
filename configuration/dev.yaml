@@ -11,7 +11,7 @@ telemetry:
 
 # ── Server ────────────────────────────────────────────────────────────────────
 server:
-  api_url: "https://gw.66dev.xyz/v1"
+  api_url: "https://gw.666dev.net/v1"
 
 # ── Environment ──────────────────────────────────────────────────────────────
 environment: dev

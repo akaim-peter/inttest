@@ -10,8 +10,8 @@ telemetry:
 
 # ── Server ────────────────────────────────────────────────────────────────────
 server:
-  api_url: "https://gw.66dev.xyz/v1"
-  netseed_url: "https://netseed-api.66dev.xyz/v1"
+  api_url: "https://gw.666dev.net/v1"
+  netseed_url: "https://xyz.666dev.net/v1"
 
 # ── Environment ──────────────────────────────────────────────────────────────
 environment: test
